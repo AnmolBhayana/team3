@@ -1,0 +1,9 @@
+Function Generate_Report_AutoLoans (String Loan_Id):
+	print (Report_Title);
+	print (Customer_Details (Branch_Id, Customer_Id, Customer_Name, Customer_Address, Due_Amount));
+	print (Vehicle_Details (Loan_Id, Vehicle_Id, Registration¬_Number, Repossession_Date, Auction_Price));
+	print (Buyer_Details (Vehicle_Id, Registration¬¬_Number, Auction_Date));
+END Function
+Function Send_Report ():
+	Send Report to The Manager;
+END Function
